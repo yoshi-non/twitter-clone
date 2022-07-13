@@ -69,4 +69,4 @@ sanity init --coupon sonny2022
 
 - Select project template Blog (schema)
 
-sanityファルダ内に.gitignoreを作成しnode_modulesを記載
+sanityフォルダ内に.gitignoreを作成しnode_modulesを記載
