@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Sidebar from '../components/Sidebar'
 
 const Home: NextPage = () => {
   return (
@@ -7,7 +8,14 @@ const Home: NextPage = () => {
       <Head>
         <title>Twitter clone</title>
       </Head>
-      <h1>Hello World</h1>
+
+      <main>
+        <Sidebar/>
+
+        {/* Feed */}
+
+        {/* Widgets */}
+      </main>
     </div>
   )
 }
