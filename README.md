@@ -40,9 +40,11 @@ export default Home
 ```
 これでHello Worldが表示されればOK
 
-## コンポーネント作成(Sidebar)
-ルートディレクトリにcomponentsフォルダを作成し中にSidebar.tsxを作成
-
+## コンポーネント作成
 アイコン追加
 
 yarn add @heroicons/react
+
+Twitter埋め込み機能
+
+yarn add react-twitter-embed
