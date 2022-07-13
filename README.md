@@ -48,3 +48,25 @@ yarn add @heroicons/react
 Twitter埋め込み機能
 
 yarn add react-twitter-embed
+
+## Sanity CMS
+[The Unified Content Platform - Sanity.io](https://www.sanity.io/)でgoogleアカウントでサインイン
+
+sanityを始めて使う方はグローバルインストールを先にする※すでに入っているなら必要ない
+
+npm install -g @sanity/cli
+
+### sanityをプロジェクトに導入
+sanity init --coupon sonny2022
+
+- Login type Googleを選択しWebページでログイン確認が求められるので上記でログインしたgoogleアカウントでログイン
+
+- Project name: twitter-nextjs-clone
+
+- Use the default dataset configuration? Yes
+
+- Project output path:sanity
+
+- Select project template Blog (schema)
+
+sanityファルダ内に.gitignoreを作成しnode_modulesを記載
