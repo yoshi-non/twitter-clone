@@ -84,3 +84,9 @@ url: https://github.com/sanity-io/next-sanity
 yarn add next-sanity @portabletext/react @sanity/image-url
 
 yarn add next-sanity
+
+yarn add react-timeago
+
+↑のものだとエラー出たので↓のもの推奨
+
+yarn add --dev @types/react-timeago
