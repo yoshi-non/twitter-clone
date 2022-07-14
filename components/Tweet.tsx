@@ -72,7 +72,7 @@ const Tweet = ({tweet}: Props) => {
                                 <p className="mr-1 font-bold">{comment.username}</p>
                                 <p className="hidden text-sm text-gray-500">@{comment.username.replace(/\s+/g, '').toLowerCase()}</p>
                                 <TimeAgo className="text-sm text-gray-500"
-                                    date={tweet._createdAt}
+                                    date={comment._createdAt}
                                 />
                             </div>
                             <p>{comment.comment}</p>

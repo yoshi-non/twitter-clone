@@ -90,3 +90,7 @@ yarn add react-timeago
 ↑のものだとエラー出たので↓のもの推奨
 
 yarn add --dev @types/react-timeago
+
+## react-hot-toast
+
+yarn add react-hot-toast
