@@ -3,11 +3,11 @@
 ## プロジェクト立ち上げ
 npx create-next-app -e with-tailwindcss twitter-clone
 
-- ディレクトリ移動
+ディレクトリ移動
 
 cd twitter-clone
 
-- サーバー起動確認
+サーバー起動確認
 
 yarn run dev
 
@@ -78,3 +78,9 @@ cd sanity
 Sanityを起動
 
 sanity start
+
+url: https://github.com/sanity-io/next-sanity
+
+yarn add next-sanity @portabletext/react @sanity/image-url
+
+yarn add next-sanity
