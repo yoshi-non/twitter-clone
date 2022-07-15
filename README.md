@@ -94,3 +94,7 @@ yarn add --dev @types/react-timeago
 ## react-hot-toast
 
 yarn add react-hot-toast
+
+## NextAuth
+
+yarn add next-auth

@@ -5,13 +5,15 @@ import {
     PhotographIcon,
     SearchCircleIcon,
 } from "@heroicons/react/outline"
+import { useSession } from "next-auth/react"
 import { useState } from "react"
 
 const TweetBox = () => {
     const [input, setInput] = useState<string>("")
+    const { data: session } = useSession()
   return (
     <div className="flex space-x-2 p-5">
-        <img src="https://links.papareact.com/gll" alt="" className="mt-4 h-14 w-14 rounded-full object-cover" />
+        <img src={session?.user?.image || "https://links.papareact.com/gll"} alt="" className="mt-4 h-14 w-14 rounded-full object-cover" />
         
         <div className="flex flex-1 items-center pl-2">
             <form action="" className="flex flex-1 flex-col">
@@ -24,7 +26,7 @@ const TweetBox = () => {
                         <CalendarIcon className="h-5 w-5"/>
                         <LocationMarkerIcon className="h-5 w-5"/>
                     </div>
-                    <button disabled={!input} className="rounded-full bg-twitter px-5 py-2 font-bold text-white disabled:opacity-40">Tweet</button>
+                    <button disabled={!input || !session} className="rounded-full bg-twitter px-5 py-2 font-bold text-white disabled:opacity-40">Tweet</button>
                 </div>
             </form>
         </div>
