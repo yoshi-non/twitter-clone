@@ -1,5 +1,11 @@
 # Twitter clone
 
+![スクリーンショット 2022-07-15 190644](https://user-images.githubusercontent.com/83369665/179203146-48863efd-201a-4838-8e3e-0330b39f6f8a.png)
+![スクリーンショット 2022-07-15 190913](https://user-images.githubusercontent.com/83369665/179203174-9d9fb5f0-ac9e-4a1e-9e4b-15b945a3cf1b.png)
+![スクリーンショット 2022-07-15 190940](https://user-images.githubusercontent.com/83369665/179203194-9654d3c2-b05d-4388-a4b4-1e243fb3ad38.png)
+![スクリーンショット 2022-07-15 191024](https://user-images.githubusercontent.com/83369665/179203216-9c71913d-4013-4b09-98c0-36f9b76279ed.png)
+![スクリーンショット 2022-07-15 191100](https://user-images.githubusercontent.com/83369665/179203236-cb5c93b2-1e0e-4582-bcec-ebedefc179b2.png)
+
 ## プロジェクト立ち上げ
 npx create-next-app -e with-tailwindcss twitter-clone
 

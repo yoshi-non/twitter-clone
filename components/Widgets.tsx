@@ -10,7 +10,7 @@ const Widgets = () => {
             <input type="text" placeholder="Search Twitter" className="bg-transparent flex-1 outline-none" />
         </div>
 
-        <TwitterTimelineEmbed sourceType="profile" screenName="LaplusDarknesss" options={{height:1000}}/>
+        <TwitterTimelineEmbed sourceType="profile" screenName="TECHCAFE_nagoya" options={{height:1000}}/>
     </div>
   )
 }
