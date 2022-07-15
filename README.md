@@ -98,3 +98,7 @@ yarn add react-hot-toast
 ## NextAuth
 
 yarn add next-auth
+
+## tailwind-scrollbar-hide
+
+yarn add tailwind-scrollbar-hide
